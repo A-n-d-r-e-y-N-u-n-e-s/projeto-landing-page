@@ -40,6 +40,10 @@ body{
     padding: 15px;
 }
 
+.cabecalho ul li a{
+    color: #F2F2F2;
+}
+
 .cabecalho ul li a:hover{
     font-weight: bold;
 }
@@ -51,7 +55,7 @@ body{
 }
 
 .painel h2{
-    color: white;
+    color: #F2F2F2;
     font-size: 60px;
     font-weight: 400;
     text-align: center;
@@ -62,7 +66,7 @@ body{
 
 .secao-com-texto{
     padding: 153px;
-    color: white;
+    color: #F2F2F2;
     text-align: center;
     clear: both;
 }
@@ -114,7 +118,7 @@ body{
 }
 
 .contato{
-    color: white;
+    color: #F2F2F2;
     background: url(imagens/mc-donalds.jpg) center center no-repeat;
     height: 500px;
     text-align: center;
@@ -162,7 +166,7 @@ body{
 }
 
 .rodape ul li a{
-    color: white;
+    color: #F2F2F2;
 }
 
 .rodape ul li a:hover{
@@ -170,7 +174,7 @@ body{
 }
 
 .rodape .copyright{
-    color: white;
+    color: #F2F2F2;
 }
 
 .rodape .redes-sociais .facebook,
