@@ -1,0 +1,74 @@
+@media (max-width: 992px) {
+    .secao-com-texto{    
+        padding: 153px 0;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto .onde-estamos p{    
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 720px) {   
+    .ladrilho .grande{
+        width: 100%;
+    }
+
+    .ladrilho .sima,
+    .ladrilho .baixo{
+        width: 50%;
+        height: 300PX;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .cabecalho{ 
+        height: 250px;
+    }
+
+    .cabecalho .logo .McDonald-logo,
+    .rodape .McDonald-logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+
+    }
+
+    .painel h2{
+        font-size: 2.5rem;
+    }
+
+    .secao-com-texto h2{
+        font-size: 3rem;
+    }
+
+    .secao-com-texto .onde-estamos p{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {   
+    .ladrilho .grande,
+    .ladrilho .sima,
+    .ladrilho .baixo{
+        width: 100%;
+    }
+
+}

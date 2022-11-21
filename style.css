@@ -1,0 +1,190 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 1440px;
+    background: red;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.cabecalho{
+    padding: 30px 15px;
+    position: relative;
+}
+
+.cabecalho .logo .McDonald-logo{
+    width: 95px;
+    height: 75px;
+    display: inline-block;   
+}
+
+.cabecalho{
+    background-color: yellow;
+    height: 140px;
+}
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+.painel {
+    background: url(imagens/mcdonalds-classico.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.painel h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secao-com-texto{
+    padding: 153px;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img{
+    width: 170px;
+    height: 100px;
+}
+
+.secao-com-texto h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 37px;
+}
+
+.secao-com-texto p{
+    font-size: 18px; 
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p{
+    font-size: 28px;
+}
+
+.ladrilho div{
+    float: left;
+}
+
+.ladrilho .grande{
+    background: url(imagens/neymar.jpg) center center no-repeat;
+    width: 65%;
+    height: 700px;  
+    background-size: cover;
+}
+
+.ladrilho .sima{
+    background: url(imagens/mcdonalds-classico.jpg) center center no-repeat;
+    width: 35%;
+    height: 400px;
+    background-size: cover;
+}
+
+.ladrilho .baixo{
+    background: url(imagens/mcdonald-s.jpg) center center no-repeat;
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+}
+
+.contato{
+    color: white;
+    background: url(imagens/mc-donalds.jpg) center center no-repeat;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+
+.contato h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.contato .texto address{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contato .texto{
+    padding: 60px; 
+    top: 30%;
+    left: 35%;
+}
+
+.rodape .McDonald-logo{
+    width: 95px;
+    height: 75px;
+    display: inline-block; 
+}
+
+.rodape{
+    background: url(imagens/foto-mc-donalds-02.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a{
+    color: white;
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+}
+
+.rodape .copyright{
+    color: white;
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais{
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}
