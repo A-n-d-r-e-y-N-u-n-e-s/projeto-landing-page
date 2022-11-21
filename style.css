@@ -4,7 +4,7 @@ html{
 
 body{
     max-width: 1440px;
-    background: red;
+    background: #D91A1A;
     margin: 0 auto;
     font-size: 1.6rem;
 }
@@ -21,7 +21,7 @@ body{
 }
 
 .cabecalho{
-    background-color: yellow;
+    background-color: #F2AE2E;
     height: 140px;
 }
 
@@ -99,7 +99,7 @@ body{
     background-size: cover;
 }
 
-.ladrilho .sima{
+.ladrilho .cima{
     background: url(imagens/mcdonalds-classico.jpg) center center no-repeat;
     width: 35%;
     height: 400px;
